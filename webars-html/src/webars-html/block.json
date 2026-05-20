@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"version": "1.0.0",
+	"category": "widgets",
+	"name": "webars/html",
+	"textdomain": "webars-html",
+	"title": "Webars HTML",
+	"description": "Insert a custom HTML snippet or SVG code. Perfect for icons: standalone or paired with text.",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"attributes": {
+		"content": {
+			"type": "string",
+			"default": ""
+		},
+		"link": {
+			"type": "object",
+			"default": {
+				"url": "",
+				"opensInNewTab": false
+			}
+		}
+	}
+}
