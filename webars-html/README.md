@@ -5,7 +5,7 @@ directly into the editor. It produces identical, minimalist output in both the e
 and on the frontend — ensuring a true WYSIWYG experience.
 
 
-## Screenshots
+## Preview
 
 **Editor view**
 
