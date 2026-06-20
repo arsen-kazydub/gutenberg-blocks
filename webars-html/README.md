@@ -7,7 +7,7 @@ and on the frontend — ensuring a true WYSIWYG experience.
 
 ## Preview
 
-**Editor view**
+**Editor View**
 
 <kbd>
   <img src="screenshots/webars-html-editor.webp" alt="Social icons in the editor made using the Webars HTML block">
@@ -15,7 +15,7 @@ and on the frontend — ensuring a true WYSIWYG experience.
 
 <div>&nbsp;</div>
 
-**Live website**
+**Live Website**
 
 <kbd>
   <img src="screenshots/webars-html-frontend.webp" alt="Social icons on the live website matching their appearance in the editor">
@@ -26,13 +26,13 @@ and on the frontend — ensuring a true WYSIWYG experience.
 
 This block was created to address real limitations encountered in production environments.
 
-### Native HTML block
+### Native HTML Block
 
 * Displays raw HTML instead of rendered output in the editor
 * Breaks visual flow during page building
 * Makes layout composition harder, especially for UI elements
 
-### Existing solutions
+### Existing Solutions
 
 Nick Diego's [Icon Block](https://wordpress.org/plugins/icon-block/) improves the experience
 but does not fully resolve these issues:
@@ -55,7 +55,7 @@ but does not fully resolve these issues:
 The block generates minimal, predictable markup.
 The optional link wrapper does not affect the overall structure.
 
-**Without link wrapper**
+**Without Link Wrapper**
 
 ```html
 <div class="wp-block-webars-html">
@@ -63,7 +63,7 @@ The optional link wrapper does not affect the overall structure.
 </div>
 ```
 
-**With link wrapper**
+**With Link Wrapper**
 
 ```html
 <div class="wp-block-webars-html">
@@ -72,7 +72,7 @@ The optional link wrapper does not affect the overall structure.
 ```
 
 
-## Use cases
+## Use Cases
 
 This block is especially useful for:
 
