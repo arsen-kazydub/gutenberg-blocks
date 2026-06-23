@@ -1,2 +1,2 @@
 # Gutenberg Blocks
-A collection of custom blocks for the WordPress Gutenberg editor.
+A mono-repository of custom blocks for the WordPress Gutenberg editor.
