@@ -1,24 +1,24 @@
 # Webars HTML Block
 
-**Webars HTML** is a custom Gutenberg block that allows you to insert raw HTML or SVG markup
-directly into the editor. It produces identical, minimalist output in both the editor
-and on the frontend — ensuring a true WYSIWYG experience.
+A custom Gutenberg block that allows you to insert raw HTML or SVG markup directly into the editor.
+It produces identical, minimalist output in both the editor and on the frontend -
+ensuring a true WYSIWYG experience.
 
 
 ## Screenshots
 
-#### Editor View
+### Editor View
 
 <kbd>
-  <img src="screenshots/webars-html-editor.webp" alt="Social icons in the editor made using the Webars HTML block">
+  <img src="screenshots/webars-html-editor.webp"
+       alt="Social icons in the editor made using the Webars HTML block">
 </kbd>
 
-<div>&nbsp;</div>
-
-#### Live Website
+### Live Website
 
 <kbd>
-  <img src="screenshots/webars-html-frontend.webp" alt="Social icons on the live website matching their appearance in the editor">
+  <img src="screenshots/webars-html-frontend.webp"
+       alt="Social icons on the live website matching their appearance in the editor">
 </kbd>
 
 
@@ -57,7 +57,8 @@ but does not fully resolve these issues:
 The block generates minimal, predictable markup.
 The optional link wrapper does not affect the overall structure.
 
-#### Without Link Wrapper
+
+### Without Link Wrapper
 
 ```html
 <div class="wp-block-webars-html">
@@ -65,7 +66,8 @@ The optional link wrapper does not affect the overall structure.
 </div>
 ```
 
-#### With Link Wrapper
+
+### With Link Wrapper
 
 ```html
 <div class="wp-block-webars-html">
