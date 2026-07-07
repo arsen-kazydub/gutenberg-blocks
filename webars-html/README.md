@@ -5,9 +5,9 @@ directly into the editor. It produces identical, minimalist output in both the e
 and on the frontend — ensuring a true WYSIWYG experience.
 
 
-## Preview
+## Screenshots
 
-**Editor View**
+#### Editor View
 
 <kbd>
   <img src="screenshots/webars-html-editor.webp" alt="Social icons in the editor made using the Webars HTML block">
@@ -15,7 +15,7 @@ and on the frontend — ensuring a true WYSIWYG experience.
 
 <div>&nbsp;</div>
 
-**Live Website**
+#### Live Website
 
 <kbd>
   <img src="screenshots/webars-html-frontend.webp" alt="Social icons on the live website matching their appearance in the editor">
@@ -26,11 +26,13 @@ and on the frontend — ensuring a true WYSIWYG experience.
 
 This block was created to address real limitations encountered in production environments.
 
+
 ### Native HTML Block
 
 * Displays raw HTML instead of rendered output in the editor
 * Breaks visual flow during page building
 * Makes layout composition harder, especially for UI elements
+
 
 ### Existing Solutions
 
@@ -55,7 +57,7 @@ but does not fully resolve these issues:
 The block generates minimal, predictable markup.
 The optional link wrapper does not affect the overall structure.
 
-**Without Link Wrapper**
+#### Without Link Wrapper
 
 ```html
 <div class="wp-block-webars-html">
@@ -63,7 +65,7 @@ The optional link wrapper does not affect the overall structure.
 </div>
 ```
 
-**With Link Wrapper**
+#### With Link Wrapper
 
 ```html
 <div class="wp-block-webars-html">
